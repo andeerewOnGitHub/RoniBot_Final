@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
-import data
+# import data
 import plotly.express as px
 import streamlit as st
 from openai import OpenAI
