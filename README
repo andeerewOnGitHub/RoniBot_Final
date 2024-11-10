@@ -10,11 +10,17 @@ How to Install:
 
 
 How to Use:
+Download the entire file, then run app.py
+
+paste this in the Terminal: 
+
+streamlit run c:/Users/andre/OneDrive/Documents/RonisMacBarFinal/app.py
+
 
 
 
 Contributing:
-Pranav Gaddam, Andrew Yun, Ryan Sun. Aiding resources - from streamlit's documentation.
+Andrew Yun, Pranav Gaddam, Ryan Sun. Aiding resources - from streamlit's documentation.
 
 Liscence:
 Roni's Mac Bar
