@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn
+# import sklearn
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
@@ -9,8 +9,8 @@ import data
 import plotly.express as px
 import streamlit as st
 from openai import OpenAI
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+# from sklearn.model_selection import train_test_split
+# from sklearn.linear_model import LinearRegression
 import random
 import time
 from pytrends.request import TrendReq
