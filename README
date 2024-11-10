@@ -1,0 +1,20 @@
+Project Overview:
+The RoniBot is an analytical bot made to analyze data from the resturant Roni's. Our application presents key restuarant statistics
+to the user, aiming to inform the user about the business. 
+
+Project Description:
+We used streamlit to present the data processed and organized by python. This was because python was our more fmailiar language and
+streamlit had proven to be very powerful and accessible.
+
+How to Install:
+
+
+How to Use:
+
+
+
+Contributing:
+Pranav Gaddam, Andrew Yun, Ryan Sun. Aiding resources - from streamlit's documentation.
+
+Liscence:
+Roni's Mac Bar
