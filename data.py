@@ -130,10 +130,15 @@ countItem_dict = {
 
 #Sorting data into a list 
 def load_data(file_name):
-    with open(file_name, 'r') as file:
-        # Read the file content, split by lines, and then split each line by commas
-        data_list = [line.split(',') for line in file.read().split('\n')]
-        
+    try:
+        with open(file_name, 'r', encoding='utf-8') as file:
+            # Read the file content, split by lines, and then split each line by commas
+            data_list = [line.split(',') for line in file.read().split('\n')]
+    except UnicodeDecodeError:
+        # Fallback to ISO-8859-1 encoding if UTF-8 fails
+        with open(file_name, 'r', encoding='ISO-8859-1') as file:
+            data_list = [line.split(',') for line in file.read().split('\n')]
+
     # Remove the header and last empty line if they exist
     if data_list:
         data_list.pop(0)  # Remove header
