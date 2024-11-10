@@ -1,9 +1,14 @@
 streamlit
 numpy
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
 plotly
 openai
 pytrends
 scikit-learn
+pillow
+cycler
+kiwisolver
+pyparsing
+packaging
