@@ -26,8 +26,8 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-image_path = "C:/Users/andre/OneDrive/Documents/RonisMacBarFinal/ronisMacbarIcon.png"
-TopleftIcon_path= "C:/Users/andre/OneDrive/Documents/RonisMacBarFinal/TopleftIcon.jpg"
+image_path = "ronisMacbarIcon.png"
+TopleftIcon_path= "TopleftIcon.jpg"
 st.sidebar.image(TopleftIcon_path, use_container_width=False, width=150)
 
 # Sidebar navigation
