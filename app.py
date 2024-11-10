@@ -15,6 +15,7 @@ import random
 import time
 from pytrends.request import TrendReq
 import matplotlib.dates as mdates
+import data
 
 #This line talks to the other file, call variables or functions from the other file using dot notation 
 
