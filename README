@@ -1,20 +1,29 @@
+1st Place Winner At the TAMU Datathon
+
+  "The largest data science and machine learning focused hackathon in Texas"
+
+Judged by:
+
+  Kristen Curbo, Owner of College Station Roni's Mac and Cheese
+
 Project Overview:
-The RoniBot is an analytical bot made to analyze data from the resturant Roni's. Our application presents key restuarant statistics
-to the user, aiming to inform the user about the business. 
+The RoniBot is an analytical dashboard combined with a chatbot made to analyze data from the resturant Roni's saes. Our application presents key restaurant statistics
+to the user, aiming to visually provide sales information, catagorize certain google trends, and provide useful insights to the buisness owners.
 
 Project Description:
 We used streamlit to present the data processed and organized by python. This was because python was our more fmailiar language and
 streamlit had proven to be very powerful and accessible.
 
-How to Install:
-
-
 How to Use:
-Download the entire file, then run app.py
+Download the entire file
 
-paste this in the Terminal: 
+Run app.py in VsCode
 
-streamlit run c:/Users/andre/OneDrive/Documents/RonisMacBarFinal/app.py
+Find and run the command printed by the terminal under this string: 
+
+  " Warning: to view this Streamlit app on a browser, run it with the following command:"
+
+The application should now run on your local browser!
 
 
 
